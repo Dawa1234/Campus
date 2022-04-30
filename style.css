@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    box-shadow: 0px 1px 5px white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    z-index: 1;
+    background-color: white;
+}
+
+nav .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 700px;
+    /* flex-wrap: wrap; */
+}
+
+nav .left div{
+    margin: 0px 12px 0px 12px;
+}
+
+nav .left .Notices{
+    position: relative;
+}
+
+nav .left .Notices i{
+    position: absolute;
+    transform: scale(1.1);
+    left: 5.5rem;
+    top: 0.3rem;
+    
+
+}
+
+nav .left .Notices span{
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 0;
+    left: 3.8rem;
+    display: inline-block;
+    background-color: rgb(230, 82, 82);
+    width: 25px;
+    height: 13px;
+    border-radius: 10px;
+    color: white;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    height: inherit;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: rgb(82, 82, 82);
+    transition: 0.3s;
+}
+
+nav a:hover{
+    transition: 0.3s;
+    color: rgb(100, 160, 248);
+
+}
+
+nav .right{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 100%;
+}
+
+nav .right a{
+    position: relative;
+    /* border: 1px solid black; */
+    /* margin: 0px 20px 0px 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+}
+
+
+nav .right .profile span{
+    position: absolute;
+    left: 1rem;
+    top: 1.3rem;
+    background: url(./ds.jpg);
+    background-size: cover;
+}
+
+.top-content{
+    width: 100%;
+    height: 280px;
+    /* border: 1px solid rgb(31, 29, 29); */
+    background-color: aquamarine;
+}
+.main-content{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid rgb(31, 29, 29); */
+    background-color: cornsilk;
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid rgb(31, 29, 29); */
+    background-color: rgb(46, 65, 87);
+}
