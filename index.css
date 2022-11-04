@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(85, 84, 84);
+
+}
+
+.header{
+    background: rgb(219, 219, 219);
+    height: 500px;
+    width: 400px;
+    border-radius: 3px;
+}
+.login{
+    text-align: center;
+}
+.email, .password{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.email2 input , .password input{
+    padding: 5px;
+    font-size: 13px;
+    height: 40px;
+    width: 100%;
+    border-radius: 1px;
+    border-width: 0px;
+}
+
+.submit{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.submit input{
+    color: white;
+    font-size: medium;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    border-radius: 4px;
+    background-color: rgb(5, 63, 150);
+    border-width: 0px;
+    /* border-color: rgb(59, 58, 95); */
+}
